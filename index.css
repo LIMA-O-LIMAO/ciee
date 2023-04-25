@@ -1,172 +1,150 @@
-
-
-.Caixa, .Caixa2{
-display:flex;
-flex-direction: row;
-justify-content: space-evenly;
-padding-left: 40px;
-margin-top: 60px;
-
-}
-.para{
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-
-
+:root, * {
+    box-sizing: border-box;
 }
 
-.fil{
-width: 500px;
-
-
-}
-.fil:hover{
-
-cursor: pointer;
-font-size: 18px;
-transition: 1s;
-color: blue;
-
-
+.title {
+    margin: 10px 0;
 }
 
-.Titulo{
+.Caixa {
+    display: flex;
 
-font-size: 30px;
-color: rgb(0, 0, 0);
+    flex-direction: row;
+    flex-wrap: wrap;
 
+    justify-content: center;
+    align-items: center;
 
+    gap: 30px;
 
+    margin: 15px auto;
+    width: 80%;
 }
-.Titulo:hover{
 
-    cursor: pointer;
-    font-size: 31px;
-    transition: 1s;
-    color: blue;
+@media (max-width: 300px) {
+    .Caixa {
+        margin-left: 0;
+        margin-right: 0;
 
+        width: 100%;
+    }
 }
 
 
-img{
+img {
 
 
-width: 75px;
+    width: 75px;
 
 
 
 }
-.navbar{
-height: 70px;
-background-color: white;
+
+.navbar {
+    height: 70px;
+    background-color: white;
 }
-body{
+
+body {
 
 
-background-color: rgb(231, 231, 210);
-
-}
-h1{
-
-text-align: center;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color: #212529;
-font-size: 40px;
-}
-.divisao{
-
-
-border: 2px solid rgb(16, 16, 253);
+    background-color: rgb(231, 231, 210);
 
 }
-.noticia{
 
-width: 300px;
-height: 200px;
-padding-left: 10px;
-padding-right: 10px;
-position: relative;
-object-fit: cover;
+h1 {
+
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #212529;
+    font-size: 40px;
+}
+
+.divisao {
+
+
+    border: 2px solid rgb(16, 16, 253);
 
 }
-.coluna{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+
+.coluna {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 
 }
 
-.rodape{
-position: fixed;
-color: white;
-height: 40px;
-background-color:  rgb(0, 82, 196);
-border: 2px solid rgb(117, 117, 117);
-width: 100%;
-align-items: center;
-bottom: 0px;
+.rodape {
+    position: fixed;
+    color: white;
+    height: 40px;
+    background-color: rgb(0, 82, 196);
+    border: 2px solid rgb(117, 117, 117);
+    width: 100%;
+    align-items: center;
+    bottom: 0px;
 
 }
 
-.rodape2{
-  
-
-font-size: 20px;
-    animation: fly 10s linear infinite;  
-}
-@keyframes fly{
-from{
+.rodape2 {
 
 
-transform: translateX(-200px);
-
+    font-size: 20px;
+    animation: fly 10s linear infinite;
 }
 
-    to{
+@keyframes fly {
+    from {
+
+
+        transform: translateX(-200px);
+
+    }
+
+    to {
         transform: translateX(calc(110vw - 200px));
     }
 }
 
-img{
+img {
 
 
-animation: ime 0.7s linear;
-
-
-}
-
-
-@keyframes ime{
-from{
-opacity: 0;
-
-transform: translateX(15px);
-
-
-}
-
-to{
-
-opacity: 1;
-
-}
-}
-.cor{
-
-border: 1px solid blue;
-height: 4px;
+    animation: ime 0.7s linear;
 
 
 }
 
 
+@keyframes ime {
+    from {
+        opacity: 0;
 
-a{
+        transform: translateX(15px);
 
-text-decoration: none;
+
+    }
+
+    to {
+
+        opacity: 1;
+
+    }
+}
+
+.cor {
+
+    border: 1px solid blue;
+    height: 4px;
+
+
+}
+
+
+
+a {
+
+    text-decoration: none;
 
 
 }
