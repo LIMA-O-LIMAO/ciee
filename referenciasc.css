@@ -1,0 +1,18 @@
+img{
+
+width: 300px;
+
+}
+.Referencias{
+margin-top: 150px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+flex-wrap: wrap;
+}
+.uol{
+
+padding-top: 80px;
+
+}

@@ -1,0 +1,175 @@
+
+
+.Caixa, .Caixa2{
+display:flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding-left: 40px;
+margin-top: 60px;
+
+}
+.para{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+
+.fil{
+width: 500px;
+
+
+}
+.fil:hover{
+
+cursor: pointer;
+font-size: 18px;
+transition: 1s;
+color: blue;
+
+
+}
+
+.Titulo{
+
+font-size: 30px;
+color: rgb(0, 0, 0);
+
+
+
+}
+.Titulo:hover{
+
+    cursor: pointer;
+    font-size: 31px;
+    transition: 1s;
+    color: blue;
+
+}
+
+
+img{
+
+
+width: 75px;
+
+
+
+}
+.navbar{
+height: 70px;
+background-color: white;
+}
+body{
+
+
+background-color: rgb(231, 231, 210);
+
+}
+h1{
+
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #212529;
+font-size: 40px;
+}
+.divisao{
+
+
+border: 2px solid rgb(16, 16, 253);
+
+}
+.noticia{
+
+width: 300px;
+height: 200px;
+padding-left: 10px;
+padding-right: 10px;
+position: relative;
+object-fit: cover;
+
+}
+.coluna{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+
+.rodape{
+position: fixed;
+color: white;
+height: 40px;
+background-color:  rgb(0, 82, 196);
+border: 2px solid rgb(117, 117, 117);
+width: 100%;
+align-items: center;
+bottom: 0px;
+
+}
+
+.rodape2{
+  
+
+font-size: 20px;
+    animation: fly 10s linear infinite;  
+}
+@keyframes fly{
+from{
+
+
+transform: translateX(-200px);
+
+}
+
+    to{
+        transform: translateX(calc(110vw - 200px));
+    }
+}
+
+img{
+
+
+animation: ime 0.7s linear;
+
+
+}
+
+
+@keyframes ime{
+from{
+opacity: 0;
+
+transform: translateX(15px);
+
+
+}
+
+to{
+
+opacity: 1;
+
+}
+}
+.cor{
+
+border: 1px solid blue;
+height: 4px;
+
+
+}
+
+
+
+a{
+
+text-decoration: none;
+
+
+}
+
+/*fazer nav ficar no centro
+e arrumar ela toda
