@@ -92,6 +92,7 @@ h1 {
 
     font-size: 20px;
     animation: fly 10s linear infinite;
+    overflow: visible;
 }
 
 @keyframes fly {

@@ -22,6 +22,14 @@ h1 {
     gap: 10px;
 }
 
+.noticia {
+    flex: 4;
+
+    height: 100%;
+
+    object-fit: cover;
+}
+
 @media (max-width: 500px) {
 
     .artigo {
@@ -31,15 +39,10 @@ h1 {
         max-width: 450px;
     }
 
-}
+    .noticia {
+        width: 100%;
+    }
 
-.noticia {
-    flex: 4;
-
-    height: 100%;
-    width: 100%;
-
-    object-fit: cover;
 }
 
 .manchete {
