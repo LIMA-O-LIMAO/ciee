@@ -108,6 +108,9 @@ h1 {
     margin-top: 12px;
     font-size: 20px;
     animation: fly 10s linear infinite;
+
+    overflow: visible;
+    width: fit-content;
 }
 
 @keyframes fly {
