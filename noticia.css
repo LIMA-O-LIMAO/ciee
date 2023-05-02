@@ -29,6 +29,12 @@ h1 {
 
     object-fit: cover;
 }
+.texto {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 500px) {
 
@@ -177,12 +183,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-.texto {
-    width: 500px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-}
 
 
 img {
