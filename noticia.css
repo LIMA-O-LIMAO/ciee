@@ -35,6 +35,29 @@ h1 {
     display: flex;
     justify-content: center;
 }
+.rodape {
+    position: fixed;
+    color: white;
+    height: 40px;
+    background-color: rgb(0, 82, 196);
+    border: 2px solid rgb(117, 117, 117);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    bottom: 0px;
+
+}
+
+.rodape2 {
+
+    margin-top: 12px;
+    font-size: 20px;
+    animation: fly 10s linear infinite;
+
+    overflow: visible;
+    width: fit-content;
+}
 
 @media (max-width: 500px) {
 
@@ -60,6 +83,7 @@ h1 {
     .rodape2{
     
     fonte-size:15px;
+   
     }
 }
 
@@ -107,29 +131,7 @@ h1 {
     border-radius: 20px;
 }
 
-.rodape {
-    position: fixed;
-    color: white;
-    height: 40px;
-    background-color: rgb(0, 82, 196);
-    border: 2px solid rgb(117, 117, 117);
-    width: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    bottom: 0px;
 
-}
-
-.rodape2 {
-
-    margin-top: 12px;
-    font-size: 20px;
-    animation: fly 10s linear infinite;
-
-    overflow: visible;
-    width: fit-content;
-}
 
 @keyframes fly {
     from {
