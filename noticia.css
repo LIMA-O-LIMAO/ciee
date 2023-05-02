@@ -50,8 +50,10 @@ h1 {
     }
     .texto{
     
- widht:200px;
-     height:120px;
+ min-widht:200px;
+        max-widht:220px;
+        min-height:120px;
+    max-height:140px;
     
     
     }
