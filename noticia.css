@@ -52,10 +52,14 @@ h1 {
     
  min-width:220px;
         max-width:240px;
-        min-height:120px;
-    max-height:140px;
+        min-height:140px;
+    max-height:160px;
     
     
+    }
+    .rodape2{
+    
+    fonte-size:15px;
     }
 }
 
